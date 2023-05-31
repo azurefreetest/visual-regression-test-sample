@@ -15,7 +15,7 @@ export const Input: React.FC<Props> = ({
 }) => {
   return (
     <input
-      style={{ padding: "25px", width }}
+      style={{ padding: "28px", width }}
       type="text"
       value={value}
       disabled={disabled}
