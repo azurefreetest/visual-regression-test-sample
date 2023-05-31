@@ -12,7 +12,8 @@
     "test-storybook": "test-storybook",
     "test-storybook:ci": "wait-on tcp:6006 && test-storybook --junit",
     "test-storybook:coverage": "test-storybook --coverage",
-    "report-coverage": "npx nyc report --reporter=lcov -t coverage/storybook --report-dir coverage/storybook"
+    "report-coverage": "npx nyc report --reporter=lcov -t coverage/storybook --report-dir coverage/storybook",
+    "chromatic": "npx chromatic --project-token=chpt_df609c9dad54d60"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -37,7 +38,7 @@
     "@vitejs/plugin-react": "^3.0.0",
     "axe-playwright": "^1.1.12",
     "babel-loader": "^8.3.0",
-    "chromatic": "^6.15.0",
+    "chromatic": "^6.18.0",
     "eslint": "^8.33.0",
     "eslint-config-smarthr": "^6.7.0",
     "eslint-plugin-storybook": "^0.6.11",
@@ -51,5 +52,7 @@
   },
   "msw": {
     "workerDirectory": "public"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "visual-regression-test-sample@0.0.0"
 }
